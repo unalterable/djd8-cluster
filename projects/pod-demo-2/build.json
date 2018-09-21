@@ -1,0 +1,6 @@
+{
+  "gitRepo": "https://github.com/unalterable/k8s-pod-demo.git",
+  "prepScript": "echo 'hello world'",
+  "testScript": "echo 'testing'",
+  "buildScript": "docker build ."
+}
