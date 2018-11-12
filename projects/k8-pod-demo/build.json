@@ -1,0 +1,4 @@
+{
+  "gitRepo": "https://github.com/djd-platform/k8s-pod-demo.git",
+  "imageName": "unalterable/k8-pod-demo"
+}
