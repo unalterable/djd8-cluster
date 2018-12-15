@@ -1,0 +1,4 @@
+{
+  "gitRepo": "https://github.com/djd-platform/test-node-server.git",
+  "imageName": "djdplatform/test-server"
+}
