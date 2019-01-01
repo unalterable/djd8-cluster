@@ -1,4 +1,7 @@
 {
   "imageName": "djdplatform/test-server",
-  "containerPort": 5000
+  "containerPort": 5000,
+  "env": [
+    { "name": "TEST_ENV_1", "value": "test value" }
+  ]
 } 
