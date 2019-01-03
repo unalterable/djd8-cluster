@@ -1,6 +1,6 @@
 {
   "namespace": "staging",
-  "imageName": "mongo",
+  "imageName": "mongo:4.0.5",
   "containerPort": 27017,
   "env": [
     {
