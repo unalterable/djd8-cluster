@@ -1,0 +1,15 @@
+{
+  "namespace": "staging",
+  "imageName": "djdplatform/auth-app",
+  "containerPort": 3000,
+  "env": [
+    {
+      "name": "MONGO_DB_USERNAME",
+      "valueFrom": { "secretKeyRef": { "name": "auth-app-mongo", "key": "user" } }
+    },
+    {
+      "name": "MONGO_DB_PASSWORD",
+      "valueFrom": { "secretKeyRef": { "name": "auth-app-mongo", "key": "password" } }
+    }
+  ]
+}
