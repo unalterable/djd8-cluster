@@ -1,3 +1,13 @@
 {
-  "imageName": "djdplatform/agnes-timesheets"
+  "imageName": "djdplatform/agnes-timesheets",
+   "env": [
+    {
+      "name": "MONGO_USERNAME",
+      "valueFrom": { "secretKeyRef": { "name": "agnes-timesheets-mongo", "key": "user" } }
+    },
+    {
+      "name": "MONGO_PASSWORD",
+      "valueFrom": { "secretKeyRef": { "name": "agnes-timesheets-mongo", "key": "password" } }
+    }
+  ]
 }
