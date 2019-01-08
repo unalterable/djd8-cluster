@@ -10,6 +10,10 @@
     {
       "name": "MONGO_DB_PASSWORD",
       "valueFrom": { "secretKeyRef": { "name": "auth-app-mongo", "key": "password" } }
+    },
+    {
+      "name": "JWT_KEY",
+      "valueFrom": { "secretKeyRef": { "name": "jwt", "key": "key" } }
     }
   ]
 }
