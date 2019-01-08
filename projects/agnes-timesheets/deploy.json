@@ -1,5 +1,6 @@
 {
   "imageName": "djdplatform/agnes-timesheets",
+  "containerPort": 4000,
    "env": [
     {
       "name": "MONGO_USERNAME",
